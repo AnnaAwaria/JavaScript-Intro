@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Training code</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="card">
+    <div class="card-body">
+        <h4 class="card-title">
+
+        </h4>
+        <p class="card-text">Accounts:</p>
+    </div>
+    <!--iterate  over accounts array and print number and balance-->
+    <!--create a paragraph for each account-->
+    </div>
+    <div class="form-inline">
+        <label class="sr-only" for="number">Number</label>
+        <input type="number" min="0" class="form-control mb-2 mr-sm-2 mb-sm-0" id="number" placeholder="Account number...">
+
+        <label class="sr-only" for="amount">Amount</label>
+        <input type="number" min="0" step="10" class="form-control mb-2 mr-sm-2 mb-sm-0" id="amount" placeholder="Amount...">
+
+        <button class="btn btn-primary">Submit</button>
+    </div>
+    <!--create main.js file in the main directory
+    
+    create personFactory function in the main.js file
+    create details object inside the personFactory function with properties: firstName, lastName, accounts list
+    firstName, last name should have some string values assigned
+    accounts list should have single account object inside with some example balance (number) and currency (string)
+    personFactory should return object with properties firstName, lastName and method sayHello
+    firstName and lastName should take its values from inner details object
+    sayHello method should return a string with firstName, lastName and number of accounts assigned to an object created by personFactory
+
+    create an object using personFactory function and assign it to a variable
+    call sayHello method inside of a console.log method in order to print the result of the method
+    attach the main.js script here and open index.html file in the browser - check the browser console for results
+
+    run the script in the node.js with the following commad: 'node main.js' - check the results-->
+    <script src="main.js"></script>
+    <script src="new-main.js"></script>
+</body>
+</html>
